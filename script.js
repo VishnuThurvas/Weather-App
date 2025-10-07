@@ -1,5 +1,5 @@
 function getWeather() {
-  const apikey = "0c91d91bd38dda92d069a14fc923afb9";
+  const apikey = "{REDACTED}";
   const city = document.getElementById("city").value.trim();
 
   if (!city) {
@@ -102,3 +102,4 @@ function showImage() {
   const weatherIcon = document.getElementById("weather-icon");
   weatherIcon.style.display = "block";
 }
+
